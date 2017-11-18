@@ -1,0 +1,44 @@
+.layout {
+  min-height: 100%;
+  .name {
+    float: left;
+    color: rgba(255, 255, 255, 0.67);
+  }
+
+  @media only screen and ( max-width: 1024px )
+  {
+    .ant-layout-content {
+      margin: 15px !important;
+      padding: 15px !important;
+    }
+  }
+  @media only screen and ( mmin-width: 1024px )
+  {
+    .ant-layout-content {
+      margin: 25px !important;
+      padding: 25px !important;
+    }
+  }
+
+
+  .ant-layout-header {
+    padding: 0 15px !important;
+  }
+  .ant-menu {
+    padding: 14px 0;
+    line-height: 36px;
+    li {
+      float: right;
+    }
+  }
+  .ant-menu-item, .ant-menu-submenu-title {
+    padding: 0 15px;
+  }
+  .ant-layout-footer {
+    padding: 0 0 15px 0;
+    .author {
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+}

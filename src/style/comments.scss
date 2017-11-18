@@ -1,0 +1,44 @@
+.comments {
+  .post-comment-title {
+    padding-top: 20px;
+    border-top: 2px solid #ccc;
+    margin-bottom: 15px;
+  }
+  .comments-title {
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(0,0,0,0.09);
+  }
+  .comments-stat {
+    font-size: 16px;
+  }
+  .comments-item {
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.09);
+    .pull-left {
+      float: left;
+    }
+    .avatar-32 {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+    }
+    .comments-content {
+      padding-left: 47px;
+    }
+    .comment-trigger {
+      margin-bottom: 10px;
+    }
+    .fmt {
+      line-height: 1.6;
+      word-wrap: break-word;
+    }
+    .mb10, .mb-10 {
+      margin-bottom: 10px !important;
+    }
+  }
+  .postComment {
+    float: right;
+    line-height: 30px;
+    margin-top: 15px;
+  }
+}

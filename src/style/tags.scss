@@ -1,0 +1,22 @@
+.tags {
+  .anticon.anticon-tag-o, .tag {
+    color: #999;
+    font-size: 14px;
+    font-style: italic;
+  }
+  .title {
+    margin-right: 15px;
+    font-size: 16px;
+    &:hover {
+      color: #2479CC;
+    }
+  }
+  .item + .item{
+    margin-top: 10px;
+  }
+  .artilceItem {
+    padding-left: 15px;
+    padding-bottom: 0;
+    line-height: 2;
+  }
+}
